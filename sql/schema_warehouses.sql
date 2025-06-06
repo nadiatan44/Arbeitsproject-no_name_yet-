@@ -3,7 +3,7 @@ CREATE TABLE warehouses (
     name VARCHAR(50),
     address VARCHAR(100),
     capacity INT,
-    manager_id VARCHAR(100),
+    manager_id INT,
     created_at DATE
 );
 
